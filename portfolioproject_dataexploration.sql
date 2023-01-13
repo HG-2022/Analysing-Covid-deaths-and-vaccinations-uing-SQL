@@ -159,7 +159,7 @@ select dea.continent,dea.location,dea.date,dea.population, vac.new_vaccinations,
 
 
 -- looking for percentage population vaccinated. usecase 1
---- using CTE as derived collumn can be used further computations.
+--- using CTE as derived column can't be used further computations.
  with percentage_populationvaccinated(continent,location,date,population,new_vaccinations,
  total_vacinations_perday,total_vacinations)
  as
