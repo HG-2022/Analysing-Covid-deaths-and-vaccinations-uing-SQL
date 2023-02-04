@@ -1,10 +1,4 @@
---isnull,coalesce
---substring,parsename
---unique , diff between unique and distinct
-
-
-
----- cleaning Data using SQL
+--cleaning Nashville housing Data using SQL
 
 ----- Total #rows in the Table
 select count(*) 
